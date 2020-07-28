@@ -1,0 +1,545 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43184380800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Adactin Hotlel Home page",
+            "match": {
+              "location": "LoginPageStep.userIsInAdactinHotlelHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 282346800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the login credentials",
+        "description": "",
+        "id": "verify-the-adactin-hotel-application-login-page;verify-the-login-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 325000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1926957200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the \"vino0801\" and \"giveme2$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vino0801\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"giveme2$\"",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginPageStep.userEnterTheAnd(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4191307000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "LoginPageStep.userClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin Hotel Application Login Page",
+    "description": "",
+    "id": "verify-the-adactin-hotel-application-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/1.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 215000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify the Search Hotel Page",
+        "description": "",
+        "id": "verify-the-adactin-hotel-application-logi;verify-the-search-hotel-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 162900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31488700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Search Hotel Page",
+            "match": {
+              "location": "SearchHotelPageStep.userIsInSearchHotelPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5355984400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user choose \"Sydney\" , \"Hotel Sunshine\" , \"Deluxe\" , \"4\" , \"27/06/2020\" , \"29/06/2020\" , \"2\" , \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"27/06/2020\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"29/06/2020\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 95
+                }
+              ],
+              "location": "SearchHotelPageStep.userChoose(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1488014400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the search button",
+            "match": {
+              "location": "SearchHotelPageStep.clickTheSearchButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin Hotel Application Logi",
+    "description": "",
+    "id": "verify-the-adactin-hotel-application-logi",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 188000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 93300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSmoke()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify the select hotel page of Adactin hotel",
+        "description": "",
+        "id": "verify-the-adactin-hotel-application-logi;verify-the-select-hotel-page-of-adactin-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 169700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 93000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSmoke()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90641100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in select hotel page",
+            "match": {
+              "location": "SelectHotelStep.userIsInSelectHotelPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190374400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select the holtel name from the list of options",
+            "match": {
+              "location": "SelectHotelStep.userSelectTheHoltelNameFromTheListOfOptions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1345282600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the continue button",
+            "match": {
+              "location": "SelectHotelStep.userClickTheContinueButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin Hotel Application Logi",
+    "description": "",
+    "id": "verify-the-adactin-hotel-application-logi",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 209600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify the book a hotel page of Adactin hotel",
+        "description": "",
+        "id": "verify-the-adactin-hotel-application-login-page;verify-the-book-a-hotel-page-of-adactin-hotel;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 155600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Book a hotel page",
+            "match": {
+              "location": "BookAHotelPageStep.userIsInBookAHotelPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1857510900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the \"Dhandapani\",\"Balakumar\",\"Trichy\",\"1234567891234567\",\"VISA\",\"1\",\"2020\",\"124\" to book the hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dhandapani\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Balakumar\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Trichy\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2020\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"124\"",
+                  "offset": 86
+                }
+              ],
+              "location": "BookAHotelPageStep.userEnterTheToBookTheHotel(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112888600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks the Book Now button",
+            "match": {
+              "location": "BookAHotelPageStep.userClicksTheBookNowButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin Hotel Application Login Page",
+    "description": "",
+    "id": "verify-the-adactin-hotel-application-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/4.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 237200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verify the booking confirmation page",
+        "description": "",
+        "id": "verify-the-adactin-hotel-application-login-page;verify-the-booking-confirmation-page",
+        "after": [
+          {
+            "result": {
+              "duration": 198100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Booking Confirmation",
+            "match": {
+              "location": "BookingConfirmationPageStep.userIsInBookingConfirmation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7120366800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user see the orderId",
+            "match": {
+              "location": "BookingConfirmationPageStep.userSeeTheOrderI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1092625300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click the Logout button",
+            "match": {
+              "location": "BookingConfirmationPageStep.userClickTheLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6758347000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user quit the browser",
+            "match": {
+              "location": "BookingConfirmationPageStep.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin Hotel Application Login Page",
+    "description": "",
+    "id": "verify-the-adactin-hotel-application-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/5.feature",
+    "tags": []
+  }
+]
